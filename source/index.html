@@ -9,7 +9,7 @@
 
     <header class="main-header">
       <a class="main-header__logo">
-        <img src="img/logo.jpg" width="185" height="96" alt="логотип">
+        <img src="img/logo.svg" width="185" height="96" alt="логотип">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span>
@@ -41,67 +41,74 @@
         </header>
 
 
-        <div class="reasons__row">
-          <div class="reasons reasons--blue">
-            <h2 class="reasons__title">Настоящий городок</h2>
-            <div class="reasons__number">№1</div>
-            <p class="reasons__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
-          </div>
+        <ol class="reasons__list">
+          <li class="reasons__item reasons__item--city">
+            <div class="wrapper">
+              <div class="reasons-item">
+                <h2 class="reasons-item__title">Настоящий городок</h2>
+                <p class="reasons-item__number">№1</p>
+                <p class="reasons-item__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
+              </div>
+              <div class="reason-picture">
+                <img src="" alt="" width="520" height="260">
+              </div>
+            </div>
 
-          <div class="reason-picture">
-            <img src="" alt="" width="520" height="260">
-          </div>
-        </div>
-
-
-        <div class="recommendation">
-          <div class="recommendation__icon recommendation__icon-home">
-            <h2 class="recommendation__title">Жилье</h2>
-            <p class="recommendation__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-          </div>
-          <div class="recommendation__icon recommendation__icon-food">
-            <h2 class="recommendation__title">Еда</h2>
-            <p class="recommendation__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-          </div>
-          <div class="recommendation__icon recommendation__icon-gift">
-            <h2 class="recommendation__title">Сувениры</h2>
-            <p class="recommendation__text">Не только китайского, но и местного производства!</p>
-          </div>
-        </div>
-
-
-
-        <div class="reasons__row reasons__row--invert">
-          <div class="reason-picture">
-           <img src="" alt="" width="520" height="260">
-          </div>
-
-          <div class="reasons reasons--blue">
-            <h2 class="reasons__title">Там есть мост дьявола</h2>
-            <div class="reasons__number">№2</div>
-            <p class="reasons__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-          </div>
-        </div>
+            <ul class="recommendation">
+              <li class="recommendation__icon recommendation__icon-home">
+                <h2 class="recommendation__title">Жилье</h2>
+                <p class="recommendation__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              </li>
+              <li class="recommendation__icon recommendation__icon-food">
+                <h2 class="recommendation__title">Еда</h2>
+                <p class="recommendation__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+              <li class="recommendation__icon recommendation__icon-gift">
+                <h2 class="recommendation__title">Сувениры</h2>
+                <p class="recommendation__text">Не только китайского, но и местного производства!</p>
+              </li>
+            </ul>
+          </li>
 
 
-        <div class="reasons__row">
-          <div class="reasons reasons--gray">
-            <h2 class="reasons__title">Небольшая площадь</h2>
-            <div class="reasons__number">№3</div>
-            <p class="reasons__text">Все интересные места находятся очень близко</p>
-          </div>
-          <div class="reasons reasons--gray">
-            <h2 class="reasons__title">Красивая дорога</h2>
-            <div class="reasons__number">№4</div>
-            <p class="reasons__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-          </div>
-          <div class="reasons reasons--gray">
-            <h2 class="reasons__title">Мало туристов</h2>
-            <div class="reasons__number">№5</div>
-            <p class="reasons__text">Большинство едет в гранд каньон и толпится там!</p>
-          </div>
-        </div>
 
+          <li class="reasons__row reasons__row--invert">
+            <div class="wrapper">
+              <div class="reason-picture">
+                <img src="" alt="" width="520" height="260">
+              </div>
+
+              <div class="reasons reasons--blue">
+                <h2 class="reasons-item__title">Там есть мост дьявола</h2>
+                <p class="reasons-item__number">№2</p>
+                <p class="reasons-item__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="reasons__row">
+            <div class="reasons__grey">
+              <h2 class="reasons__title">Небольшая площадь</h2>
+              <p class="reasons__number">№3</p>
+              <p class="reasons__text">Все интересные места находятся очень близко</p>
+            </div>
+          </li>
+          <li class="reasons__row">
+            <div class="reasons__grey">
+              <h2 class="reasons__title">Красивая дорога</h2>
+              <div class="reasons__number">№4</div>
+              <p class="reasons__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </div>
+          </li>
+          <li class="reasons__row">
+            <div class="reasons__grey">
+              <h2 class="reasons__title">Мало туристов</h2>
+              <div class="reasons__number">№5</div>
+              <p class="reasons__text">Большинство едет в гранд каньон и толпится там!</p>
+            </div>
+          </li>
+        </ol>
       </article>
 
 
@@ -110,7 +117,7 @@
       <div class="hotel-search">
         <h2 class="hotel-search__title">Заинтересовались?</h2>
           <p class="hotel-search__discription"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-            <button type="button" class="hotel-search__button">Найти гостиницу</button>
+            <a class="hotel-search" href="#">Найти гостиницу</a>
       </div>
 
 

@@ -1,0 +1,197 @@
+.hotel-search__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 700;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  size: 14px;
+  line-height: 21px;
+  color: #000;
+}
+.hotel-search__discription {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 400;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  size: 21px;
+  line-height: 26px;
+  color: #333;
+}
+.hotel-search a {
+  color: #000;
+  text-align: center;
+  align-items: center;
+}
+.site-list__item a {
+  width: 1200px;
+  height: 56px;
+  left: 40px;
+  left: calc(50% - 1200px/2);
+  top: 0px;
+  background: #fff;
+  color: #000000;
+}
+.page-footer__col a {
+  color: #000;
+}
+.social__item a {
+  color: #000;
+}
+.promo {
+  background-image: url("../img/mountain.jpg");
+  text-align: center;
+  background-size: cover;
+  width: 1200px;
+  height: 518px;
+}
+.reason-picture {
+  width: 800px;
+  height: 256px;
+  left: 440px;
+  top: 780px;
+  background: url(photo-city@1x.jpg);
+}
+.reasons-item {
+  background: #81B3D2;
+  width: 400px;
+  height: 256px;
+  left: 40px;
+  top: 780px;
+}
+.reasons-item__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  background: #81B3D2;
+  text-align: center;
+}
+.reasons-item__text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+.reasons-item__number {
+  text-align: center;
+}
+.reasons__header {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 700;
+  align-items: center;
+  text-transform: uppercase;
+  size: 14px;
+  line-height: 21px;
+  color: #000;
+  text-align: center;
+}
+.reasons__discription {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 400;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  size: 21px;
+  line-height: 26px;
+  color: #333;
+}
+.reasons__grey {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+  height: 92px;
+  left: 90px;
+}
+.reasons__text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  left: 90px;
+}
+.recommendation__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  size: 21px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+  height: 92px;
+  left: 90px;
+  top: 1205px;
+  mix-blend-mode: normal;
+}
+.recommendation__text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  size: 21px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+  height: 92px;
+  left: 90px;
+  top: 1205px;
+  mix-blend-mode: normal;
+}
+.card-header__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 700;
+  align-items: center;
+  text-transform: uppercase;
+  size: 14px;
+  line-height: 21px;
+  color: #000;
+  text-align: center;
+}
+.card-header__discription {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 400;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  size: 21px;
+  line-height: 26px;
+  color: #333;
+}
+.view-search__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 700;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  size: 14px;
+  line-height: 21px;
+  color: #000;
+}
+.view-search__discription {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 400;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  size: 21px;
+  line-height: 26px;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */

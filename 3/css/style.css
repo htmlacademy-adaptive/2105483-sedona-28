@@ -37,9 +37,6 @@
 .page-footer__col a {
   color: #000;
 }
-.social__item a {
-  color: #000;
-}
 .promo {
   background-image: url("../img/mountain.jpg");
   text-align: center;
@@ -172,6 +169,28 @@
   line-height: 26px;
   color: #333;
 }
+.card-header__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 700;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+  text-align: center;
+}
+.card-header__discription {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 400;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  color: #333;
+}
 .view-search__title {
   font-family: 'PT Sans';
   font-style: normal;
@@ -193,5 +212,54 @@
   size: 21px;
   line-height: 26px;
   color: #333;
+}
+.form-header__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 26px;
+  text-align: center;
+  color: #000;
+}
+.form-header__discription {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+  text-align: center;
+}
+.form__text {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+.form-item__field {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+.form-item__label {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+.form-item__row {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.social__item a {
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */

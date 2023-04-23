@@ -2,47 +2,64 @@
 .reasons__header  {
   font-family: 'PT Sans';
   font-style: normal;
-  width: 700;
+  font-weight: 700;
   align-items: center;
   text-transform: uppercase;
-  size: 14px;
+  font-size: 14px;
   line-height: 21px;
   color: #000;
   text-align: center;
+  width: 284px;
+  height: 80px;
 
+  @media (min-width: @tablet-width){
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 520px;
+    height: 103px;
+  }
+
+
+  @media (min-width: @desktop-width){
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 484px;
+    height: 103px;
+  }
 }
 
 .reasons__discription {
   font-family: 'PT Sans';
   font-style: normal;
-  width: 400;
+  font-weight: 400;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  size: 21px;
+  font-size: 21px;
   line-height: 26px;
   color: #333;
+  width: 284px;
+  height: 42px;
 
-}
+  @media (min-width: @tablet-width){
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 520px;
+    height: 103px;
+  }
 
-.reasons__grey {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  width: 300px;
-  height: 92px;
-  left: 90px;
-
-
-}
-.reasons__text{
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  left: 90px;
-
+  @media (min-width: @desktop-width){
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 484px;
+    height: 103px;
+  }
 }

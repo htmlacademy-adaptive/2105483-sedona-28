@@ -1,99 +1,141 @@
 <html class="page" lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Седона</title>
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <base href="https://htmlacademy-adaptive.github.io/2105483-sedona-28/4/">
 </head>
 
   <body class="page__body">
-
     <header class="main-header">
       <a class="main-header__logo">
-        <img src="img/logo.svg" width="185" height="96" alt="логотип">
+        <img src="img/logo.svg" width="185" height="96" alt="логотип" />
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span>
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
         </button>
 
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active"><a>Главная</a></li>
-            <li class="site-list__item"><a href="#">Фото и видео</a></li>
-            <li class="site-list__item"><a href="#">Форма отзыва</a></li>
-            <li class="site-list__item"><a href="#">HTML ACADEMY</a></li>
+            <li class="site-list__item"><a href="/">Главная</a></li>
+            <li class="site-list__item">
+              <a href="catalog.html">Фото и видео</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a>Форма отзыва</a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://htmlacademy.ru/study">HTML ACADEMY</a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
-
     <div class="promo">
-      <img src="img/text-sedona.svg" alt="надпись sedona" width="456" height="100">
+      <img
+        src="img/text-sedona.svg"
+        alt="надпись sedona"
+        width="456"
+        height="100"
+      />
     </div>
 
-
-
-
-
-
     <form action="https://echo.htmlacademy.ru" class="form-page">
-
-
       <header class="form-header">
         <h1 class="form-header__title">Оставьте свой отзыв</h1>
-        <p class="form-header__discription"> Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <p class="form-header__discription">
+          Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о
+          посещенных вами достопримечательностях
+        </p>
       </header>
 
+      <div class="form__wrapper">
+        <div class="form">
+          <h2 class="form__text">Представьтесь:</h2>
+          <div class="form-item form-item--introduce">
+            <div class="form-item__row">
+              <label class="form-item__label" for="name">Имя*</label>
+              <input
+                class="form-item__field"
+                type="text"
+                value="Петр"
+                id="name"
+              />
+            </div>
+            <div class="form-item__row">
+              <label class="form-item__label" for="surname">Фамилия*</label>
+              <input
+                class="form-item__field"
+                type="text"
+                value="Пустота"
+                id="surname"
+              />
+            </div>
+            <div class="form-item__row">
+              <label class="form-item__label" for="lastname">Отчество*</label>
+              <input
+                class="form-item__field"
+                type="text"
+                value="Викторович"
+                id="lastname"
+              />
+            </div>
+          </div>
+        </div>
 
-      <div class="form">
-        <h2 class="form__text">Представьтесь:</h2>
-        <div class="form-item">
-          <div class="form-item__row">
-            <label class="form-item__label" for="name">Имя*</label>
-            <input class="form-item__field" type="text" value="Петр" id="name">
-          </div>
-          <div class="form-item__row">
-            <label class="form-item__label" for="surname">Фамилия*</label>
-            <input class="form-item__field" type="text" value="Пустота" id="surname">
-          </div>
-          <div class="form-item__row">
-            <label class="form-item__label" for="lastname">Отчество*</label>
-            <input class="form-item__field" type="text" value="Викторович" id="lastname">
+        <div class="form">
+          <h2 class="form__text">Контактная информация:</h2>
+          <div class="form-item form-item--contacts">
+            <div class="form-item__row">
+              <label class="form-item__label" for="col"
+                >Контактный телефон*</label
+              >
+              <input
+                class="form-item__field"
+                type="text"
+                value="Введите телефон"
+                id="col"
+              />
+            </div>
+            <div class="form-item__row">
+              <label class="form-item__label" for="e-mail"
+                >Электронная почта*</label
+              >
+              <input
+                class="form-item__field"
+                type="text"
+                value="Введите e-mail"
+                id="e-mail"
+              />
+            </div>
           </div>
         </div>
       </div>
 
-
-      <div class="form">
-        <h2 class="form__text">Контактная информация:</h2>
-        <div class="form-item">
-          <div class="form-item__row">
-            <label class="form-item__label" for="col">Контактный телефон*</label>
-            <input class="form-item__field" type="text" value="Введите телефон" id="col">
-          </div>
-          <div class="form-item__row">
-            <label class="form-item__label" for="e-mail">Электронная почта*</label>
-            <input class="form-item__field" type="text" value="Введите e-mail" id="e-mail">
-          </div>
-        </div>
-      </div>
 
       <div class="form">
         <h2 class="form__text">Ваше общее впечатление:</h2>
         <div class="form-item">
           <div class="form-item__row">
-            <label class="form-item__label" for="good">Скорее положительное</label>
-            <input class="form-item__field" type="radio" id="good">
+            <label class="form-item__label" for="good"
+              >Скорее положительное</label
+            >
+            <input class="form-item__radio" type="radio" id="good" />
           </div>
           <div class="form-item__row">
-            <label class="form-item__label" for="neutral">Затрудняюсь ответить</label>
-            <input class="form-item__field" type="radio"  id="neutral">
+            <label class="form-item__label" for="neutral"
+              >Затрудняюсь ответить</label
+            >
+            <input class="form-item__radio" type="radio" id="neutral" />
           </div>
           <div class="form-item__row">
-            <label class="form-item__label" for="negative">Скорее отрицательным</label>
-            <input class="form-item__field" type="radio" id="negative">
+            <label class="form-item__label" for="negative"
+              >Скорее отрицательным</label
+            >
+            <input class="form-item__radio" type="radio" id="negative" />
           </div>
         </div>
       </div>
@@ -103,39 +145,39 @@
         <div class="form-item">
           <div class="form-item__row">
             <label class="form-item__label" for="bridge">Мост дьявола</label>
-            <input class="form-item__field" type="checkbox" id="bridge">
+            <input class="form-item__checkbox" type="checkbox" id="bridge" />
           </div>
           <div class="form-item__row">
             <label class="form-item__label" for="park">Слайд-парк</label>
-            <input class="form-item__field" type="checkbox"  id="park">
+            <input class="form-item__checkbox" type="checkbox" id="park" />
           </div>
           <div class="form-item__row">
             <label class="form-item__label" for="mountain">Гора-Колокол</label>
-            <input class="form-item__field" type="checkbox" id="mountain">
+            <input class="form-item__checkbox" type="checkbox" id="mountain" />
           </div>
           <div class="form-item__row">
             <label class="form-item__label" for="red">Красные-скалы</label>
-            <input class="form-item__field" type="checkbox" id="red">
+            <input class="form-item__checkbox" type="checkbox" id="red" />
           </div>
         </div>
       </div>
-
 
       <div class="form">
         <h2 class="form__text">Опишите свои эмоции:</h2>
         <div class="form-item">
           <div class="form-item__row">
-            <label class="form-item__label" for="commit">Опишите подробно все свои восторги</label>
-            <textarea class="form-item__field" id="commit"></textarea>
+            <label class="form-item__label" for="commit"
+              >Опишите подробно все свои восторги</label
+            >
+            <textarea class="form-item__textarea" id="commit"></textarea>
           </div>
         </div>
       </div>
 
       <div class="form">
-        <button type="submit">Отправить отзыв</button>
-        <span class="fields">*-Обязательные поля</span>
+        <button class="form__submit" type="submit">Отправить отзыв</button>
+        <span class="form__fields">*-Обязательные поля</span>
       </div>
-
     </form>
 
     <footer class="page-footer">
@@ -160,14 +202,20 @@
         </li>
       </ul>
 
-
       <div class="copyright">
         <div class="copyright__text">Разработано</div>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <img src="img/htmlacademy.svg" width="27" height="34" alt="логотип htmlacademy">
+        <a
+          class="copyright__link"
+          href="https://htmlacademy.ru/intensive/adaptive"
+        >
+          <img
+            src="img/htmlacademy.svg"
+            width="27"
+            height="34"
+            alt="логотип htmlacademy"
+          />
         </a>
       </div>
     </footer>
   </body>
 </html>
-

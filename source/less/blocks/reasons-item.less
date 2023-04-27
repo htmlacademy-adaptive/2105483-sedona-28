@@ -1,35 +1,62 @@
 .reasons-item {
   background: #81B3D2;
-  width: 400px;
-  height: 256px;
-  left: 40px;
-  top: 780px;
+  margin: 0;
+  padding: 0;
 
 
+  @media (min-width: @tablet-width){
+    width: 33.33%;
+  }
 }
+
 
 .reasons-item__title {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 26px;
-  background: #81B3D2;
   text-align: center;
+  width: 284px;
 
 
+  @media (min-width: @tablet-width){
+    width: 190px;
+    font-size: 21px;
+  }
+
+  @media (min-width: @desktop-width){
+    width: 300px;
+
+  }
 }
 
 
 .reasons-item__text {
   font-family: 'PT Sans';
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
   text-transform: uppercase;
   text-align: center;
+  width: 284px;
 
+
+  @media (min-width: @tablet-width){
+    width: 190px;
+
+  }
+
+  @media (min-width: @desktop-width){
+    width: 300px;
+
+  }
 }
+
 
 .reasons-item__number{
   text-align: center;
 }
+

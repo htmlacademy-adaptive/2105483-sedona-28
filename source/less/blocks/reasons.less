@@ -3,32 +3,20 @@
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  align-items: center;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
   color: #000;
   text-align: center;
   width: 284px;
-  height: 80px;
 
   @media (min-width: @tablet-width){
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
     width: 520px;
-    height: 103px;
   }
 
 
   @media (min-width: @desktop-width){
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
     width: 484px;
-    height: 103px;
   }
 }
 
@@ -43,36 +31,81 @@
   line-height: 26px;
   color: #333;
   width: 284px;
-  height: 42px;
 
   @media (min-width: @tablet-width){
     display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
     width: 520px;
-    height: 103px;
   }
 
   @media (min-width: @desktop-width){
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
     width: 484px;
-    height: 103px;
   }
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
+.reasons__list {
+  margin: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0000);
-  overflow: hidden;
+  list-style: none;
+
+  @media (min-width: @tablet-width){
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
+
+.reasons__row {
+  @media (min-width: @tablet-width){
+    width: 33.3333%;
+  }
+}
+
+.reasons__title {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 268px;
+
+  @media (min-width: @tablet-width){
+    width: 190px;
+
+  }
+
+  @media (min-width: @desktop-width){
+    width: 300px;
+
+  }
+}
+
+.reasons__item {
+  width: 100%;
+}
+
+.reasons__text{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  line-height: 26px;
+  text-transform: uppercase;
+  width: 268px;
+
+
+
+  @media (min-width: @tablet-width){
+    width: 190px;
+    top: 1663px;
+    left: 33px;
+  }
+
+  @media (min-width: @desktop-width){
+    width: 300px;
+    top: 1674px;
+    left: 90px;
+  }
+}
+

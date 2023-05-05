@@ -1,35 +1,33 @@
 .reasons__list{
-
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
 
 
 
   @media (min-width: @tablet-width){
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-
   }
 }
 
-
-
-.reasons__header  {
+.reasons__heading {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 26px;
   color: #000;
   text-align: center;
-
-
-
+  margin: 32px auto 35px;
+  width: 284px;
 
   @media (min-width: @tablet-width){
+    font-size: 21px;
+    margin: 47px auto 35;
+    width: 520px;
+    height: 103px;
 
 
 
@@ -37,6 +35,8 @@
 
 
   @media (min-width: @desktop-width){
+    width: 484px;
+    height: 103px;
 
   }
 }
@@ -47,8 +47,8 @@
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 21px;
   color: #333;
   margin: auto;
   left: auto;
@@ -56,6 +56,8 @@
 
 
   @media (min-width: @tablet-width){
+    margin: 16px;
+    padding: 35px;
 
   }
 
@@ -65,6 +67,56 @@
   }
 }
 
+.reasons__row {
+
+
+
+
+  @media (min-width: @tablet-width){
+    width: 33.33%;
+
+
+
+  }
+
+  @media (min-width: @desktop-width){
+    width: 400px;
+    height: 250px;
+
+  }
+
+}
+
+.reasons__grey {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  padding: 0;
+  list-style: none;
+  margin: 24px 26px 66px;
+  background-color: #eee;
+
+
+
+  @media (min-width: @tablet-width){
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 41px 33px;
+    width: 189px;
+    height: 169px;
+  }
+  @media (min-width: @desktop-width){
+    width: 300px;
+    height: 152px;
+
+  }
+
+}
+
+
 
 .reasons__title {
   font-family: 'PT Sans';
@@ -72,18 +124,28 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
-  text-align: center;
   text-transform: uppercase;
 
 
 
   @media (min-width: @tablet-width){
     display: flex;
-    margin: 0;
-    padding: 0;
     list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: @desktop-width){
+    width: 300px;
+    height: 26px;
+
   }
 }
+
+.reasons__number{
+  text-align: center;
+}
+
 
 .reasons__text{
   font-family: 'PT Sans';
@@ -91,20 +153,9 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  line-height: 26px;
+  line-height: 21px;
   text-transform: uppercase;
 
-}
-
-.reasons__row{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-
-  @media (min-width: @tablet-width){
-    display: flex;
-  }
 }
 
 
@@ -119,4 +170,9 @@
   clip-path: inset(100%);
   clip: rect(0000);
   overflow: hidden;
+}
+
+.reasons-item{
+  padding: 54px 18px 40px;
+  color: #fff;
 }

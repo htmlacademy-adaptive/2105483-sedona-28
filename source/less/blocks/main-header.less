@@ -1,19 +1,14 @@
 .main-header__logo {
-  display: flex;
-  width: 185px;
-  height: 96px;
-  background-color: #5c93da;
+  display: table;
+  margin: 0 auto;
+  position: relative;
 
   @media (min-width: @tablet-width) {
-    width: 185px;
-    height: 96px;
 
-    }
-
-  @media (min-width: @desktop-width) {
-    width: 185px;
-    height: 96px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
 
   }
 }
-

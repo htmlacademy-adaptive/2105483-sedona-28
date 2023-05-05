@@ -1,14 +1,23 @@
 .reasons-item {
   background: #81B3D2;
+  width: 320px;
+  height: 211px;
   margin: 0;
   padding: 0;
+  list-style: none;
+
 
 
   @media (min-width: @tablet-width){
-    width: 33.33%;
+    width: 256px;
+    height: 256px;
+  }
+
+  @media (min-width: @desktop-width){
+    width: 400px;
+    height: 256px;
   }
 }
-
 
 .reasons-item__title {
   font-family: 'PT Sans';
@@ -18,20 +27,19 @@
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  width: 284px;
-
+  margin: 0 0 11px;
 
   @media (min-width: @tablet-width){
-    width: 190px;
-    font-size: 21px;
+
+
   }
 
   @media (min-width: @desktop-width){
-    width: 300px;
+
+
 
   }
 }
-
 
 .reasons-item__text {
   font-family: 'PT Sans';
@@ -41,22 +49,9 @@
   line-height: 21px;
   text-transform: uppercase;
   text-align: center;
-  width: 284px;
-
-
-  @media (min-width: @tablet-width){
-    width: 190px;
-
-  }
-
-  @media (min-width: @desktop-width){
-    width: 300px;
-
-  }
 }
-
 
 .reasons-item__number{
   text-align: center;
+  margin: 11px;
 }
-

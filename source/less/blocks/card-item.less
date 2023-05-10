@@ -1,62 +1,48 @@
-.card-item{
+.card-item {
 
   @media (min-width: @tablet-width){
     width: 50%;
 
   }
-  @media (min-width: @desktop-width){
-    width: 33.3333%;
 
+  @media (min-width: @desktop-width){
+    width: 33.33%;
 
   }
 }
 
-.card-item__autor{
+.card-item__autor {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 21px;
   margin: 22px 20px 15px;
+
+  @media (min-width: @tablet-width){
+    background: #F2F2F2;
+
+  }
+
+  @media (min-width: @desktop-width){
+
+  }
 }
 
-.card-item--panorama{
+.card-item--panorama {
 
   @media (min-width: @tablet-width){
     width: 100%;
-
 
   }
 
   @media (min-width: @desktop-width){
     max-width: 100%;
 
-
   }
 }
 
-
-.card-item__intro{
-  font-family: 'PT Sans';
-  font-style: normal;
-  width: 175px;
-
-
-
-  @media (min-width: @tablet-width){
-    width: 144px;
-
-
-  }
-
-  @media (min-width: @desktop-width){
-    width: 175px;
-
-
-  }
-}
-
-.card-item__info{
+.card-item__intro {
   font-family: 'PT Sans';
   font-style: normal;
   width: 175px;
@@ -64,12 +50,26 @@
   @media (min-width: @tablet-width){
     width: 144px;
 
-
   }
 
   @media (min-width: @desktop-width){
     width: 175px;
 
+  }
+}
+
+.card-item__info {
+  font-family: 'PT Sans';
+  font-style: normal;
+  width: 175px;
+
+  @media (min-width: @tablet-width){
+    width: 144px;
+
+  }
+
+  @media (min-width: @desktop-width){
+    width: 175px;
 
   }
 }

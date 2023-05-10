@@ -3,65 +3,73 @@
 
   @media (min-width: @tablet-width){
     display: flex;
-
-
-
+    width: 66.66%;
 
   }
 
-}
-
-.recommendation__icon {
-
-  @media (min-width: @tablet-width){
-    width: 33.33%;
+  @media (min-width: @desktop-width){
+    width: 100%
 
   }
 }
-
-
 
 .recommendation__title {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  margin: 31px 65px;
+  line-height: 26px;
+  margin: 20px 65px;
 
   @media (min-width: @tablet-width){
     width: 190px;
     height: 113px;
-
+    font-size: 30px;
+    line-height: 26px;
 
   }
 
   @media (min-width: @desktop-width){
     width: 300px;
+    font-size: 30px;
+    line-height: 26px;
 
   }
 }
 
-.recommendation__text{
+.recommendation__text {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  line-height: 21px;
   text-transform: uppercase;
-  padding: 16px 65px 33px;
+
 
   @media (min-width: @tablet-width){
     width: 190px;
+    font-size: 21px;
+    line-height: 21px;
 
   }
 
   @media (min-width: @desktop-width){
     width: 300px;
+    height: 90px;
 
   }
 }
 
 .recommendation__icon {
+  position: relative;
+
   @media (min-width: @tablet-width){
     width: 33.33%;
   }
+}
+
+.home-icon {
+  position: absolute;
+  left: 18px;
+
 }

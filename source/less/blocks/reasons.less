@@ -1,9 +1,7 @@
-.reasons__list{
+.reasons__list {
   margin: 32px 0 0;
   padding: 0;
   list-style: none;
-
-
 
   @media (min-width: @tablet-width){
     display: flex;
@@ -24,15 +22,13 @@
   width: 284px;
 
   @media (min-width: @tablet-width){
-    font-size: 21px;
+    font-size: 26px;
+    line-height: 21px;
     margin: 47px auto 35;
     width: 520px;
     height: 103px;
 
-
-
   }
-
 
   @media (min-width: @desktop-width){
     width: 484px;
@@ -54,34 +50,28 @@
   left: auto;
   right: auto;
 
-
   @media (min-width: @tablet-width){
     margin: 16px;
     padding: 35px;
+    font-size: 21px;
+    line-height: 21px;
 
   }
 
   @media (min-width: @desktop-width){
-
 
   }
 }
 
 .reasons__row {
-
-
-
+  text-align: center;
 
   @media (min-width: @tablet-width){
     width: 33.33%;
 
-
-
   }
 
   @media (min-width: @desktop-width){
-    width: 400px;
-    height: 250px;
 
   }
 
@@ -98,8 +88,6 @@
   margin: 24px 26px 66px;
   background-color: #eee;
 
-
-
   @media (min-width: @tablet-width){
     align-items: center;
     text-align: center;
@@ -108,6 +96,7 @@
     width: 189px;
     height: 169px;
   }
+
   @media (min-width: @desktop-width){
     width: 300px;
     height: 152px;
@@ -116,8 +105,6 @@
 
 }
 
-
-
 .reasons__title {
   font-family: 'PT Sans';
   font-style: normal;
@@ -125,8 +112,7 @@
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
-
-
+  text-align: center;
 
   @media (min-width: @tablet-width){
     display: flex;
@@ -134,7 +120,10 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 26px;
+    line-height: 21px;
   }
+
   @media (min-width: @desktop-width){
     width: 300px;
     height: 26px;
@@ -142,12 +131,12 @@
   }
 }
 
-.reasons__number{
+.reasons__number {
   text-align: center;
 }
 
 
-.reasons__text{
+.reasons__text {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -156,8 +145,14 @@
   line-height: 21px;
   text-transform: uppercase;
 
-}
+  @media (min-width: @tablet-width){
+    font-size: 21px;
+    line-height: 21px;
+  }
+  @media (min-width: @desktop-width){
 
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -172,7 +167,7 @@
   overflow: hidden;
 }
 
-.reasons-item{
+.reasons-item {
   padding: 54px 18px 40px;
   color: #fff;
 }

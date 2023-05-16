@@ -80,8 +80,11 @@ body {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 37px 0px 40px;
 }
 @media (min-width: 768px) {
   .copyright {
@@ -113,22 +116,24 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 21px;
   line-height: 26px;
   color: #000;
 }
 @media (min-width: 768px) {
   .hotel-search__title {
+    font-size: 26px;
+    line-height: 21px;
     width: 435px;
-    height: 101px;
+    height: 50px;
   }
 }
 .hotel-search__discription {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 21px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
   text-transform: uppercase;
   color: #333;
@@ -137,8 +142,9 @@ body {
 }
 @media (min-width: 768px) {
   .hotel-search__discription {
+    font-size: 18px;
+    line-height: 21px;
     width: 435px;
-    height: 101px;
   }
 }
 .hotel-search a {
@@ -157,7 +163,7 @@ body {
 }
 @media (min-width: 768px) {
   .hotel-search a {
-    margin: 40px 80px 0px;
+    margin: 10px 80px 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -198,17 +204,35 @@ body {
 .main-nav__list a {
   color: #000;
   height: 56px;
+  font-size: 17px;
+  line-height: 21px;
+}
+@media (min-width: 768px) {
+  .main-nav__list a {
+    font-size: 17px;
+    line-height: 30px;
+  }
 }
 .main-nav__toggle {
   display: none;
 }
+.map img {
+  margin: 49px 0 41px;
+}
+@media (min-width: 768px) {
+  .map img {
+    margin: 10px 0px 10px;
+  }
+}
 .page-footer {
-  margin: 33px 82px 40px;
+  padding: 33px 0 40px;
+  margin: 33px 80px 40px;
 }
 @media (min-width: 768px) {
   .page-footer {
     display: flex;
     justify-content: space-between;
+    margin: 33px 0px 40px;
   }
 }
 .page-footer__col {
@@ -217,7 +241,9 @@ body {
   font-weight: 700;
   color: #000;
   text-align: end;
-  padding: 30px;
+  font-size: 21px;
+  line-height: 26px;
+  margin: 30px;
 }
 @media (min-width: 768px) {
   .page-footer__col {
@@ -229,9 +255,7 @@ body {
   text-align: center;
   background-size: cover;
   max-width: 100%;
-  padding: 90px 0 85px;
-  width: 902px;
-  height: 214px;
+  padding: 40px 0 85px;
 }
 @media (min-width: 768px) {
   .promo {
@@ -247,13 +271,13 @@ body {
 }
 .promo__image {
   width: 282px;
-  height: 120px;
+  height: 214px;
   max-width: 100%;
 }
 @media (min-width: 768px) {
   .promo__image {
-    width: 230px;
-    height: 130px;
+    width: 461px;
+    height: 350px;
   }
 }
 @media (min-width: 1200px) {
@@ -352,13 +376,13 @@ body {
     line-height: 21px;
     margin: 47px auto 35;
     width: 520px;
-    height: 103px;
   }
 }
 @media (min-width: 1200px) {
   .reasons__heading {
-    width: 484px;
-    height: 103px;
+    font-size: 26px;
+    line-height: 21px;
+    width: 520px;
   }
 }
 .reasons__discription {
@@ -403,7 +427,6 @@ body {
 }
 @media (min-width: 768px) {
   .reasons__grey {
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
     margin: 41px 33px;
@@ -415,6 +438,7 @@ body {
   .reasons__grey {
     width: 300px;
     height: 152px;
+    text-align: center;
   }
 }
 .reasons__title {
@@ -434,13 +458,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 26px;
-    line-height: 21px;
+    line-height: 26px;
   }
 }
 @media (min-width: 1200px) {
   .reasons__title {
-    width: 300px;
-    height: 26px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .reasons__number {
@@ -450,14 +475,14 @@ body {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   line-height: 21px;
   text-transform: uppercase;
 }
 @media (min-width: 768px) {
   .reasons__text {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 21px;
   }
 }
@@ -484,12 +509,7 @@ body {
 @media (min-width: 768px) {
   .recommendation {
     display: flex;
-    width: 66.66%;
-  }
-}
-@media (min-width: 1200px) {
-  .recommendation {
-    width: 100%;
+    text-align: center;
   }
 }
 .recommendation__title {
@@ -498,12 +518,10 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
-  margin: 20px 65px;
+  margin: 20px 55px;
 }
 @media (min-width: 768px) {
   .recommendation__title {
-    width: 190px;
-    height: 113px;
     font-size: 30px;
     line-height: 26px;
   }
@@ -525,15 +543,12 @@ body {
 }
 @media (min-width: 768px) {
   .recommendation__text {
-    width: 190px;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 21px;
-  }
-}
-@media (min-width: 1200px) {
-  .recommendation__text {
-    width: 300px;
-    height: 90px;
+    text-align: center;
+    margin: 26px 0 50px;
+    margin-left: 0px;
+    margin-right: 10px;
   }
 }
 .recommendation__icon {
@@ -544,9 +559,23 @@ body {
     width: 33.33%;
   }
 }
+@media (min-width: 768px) and (min-width: 1200px) {
+  .recommendation__icon {
+    width: 380px;
+  }
+}
 .home-icon {
   position: absolute;
   left: 18px;
+}
+@media (min-width: 768px) {
+  .home-icon {
+    display: table;
+    position: static;
+    margin: 0 auto;
+    width: 77px;
+    height: 72px;
+  }
 }
 .card-list {
   margin: 0;
@@ -628,17 +657,19 @@ body {
 }
 .card-header {
   width: 280px;
-  height: 126px;
   text-align: center;
   margin: 37px 20px 50px;
   text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 37px 0 50px;
 }
 @media (min-width: 768px) {
   .card-header {
     margin: 66px 155px 67px;
     width: 458px;
     height: 114px;
-    font-size: 30px;
+    font-size: 21px;
     line-height: 26px;
     margin-left: auto;
     margin-right: auto;
@@ -657,8 +688,8 @@ body {
 }
 @media (min-width: 1200px) {
   .card-header__title {
-    width: 458px;
-    height: 122px;
+    font-size: 30px;
+    line-height: 26px;
   }
 }
 .card-header__discription {
@@ -668,14 +699,20 @@ body {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  font-size: 21px;
+  font-size: 14px;
   line-height: 26px;
   color: #333;
 }
+@media (min-width: 768px) {
+  .card-header__discription {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
 @media (min-width: 1200px) {
   .card-header__discription {
-    width: 458px;
-    height: 122px;
+    font-size: 21px;
+    line-height: 26px;
   }
 }
 @media (min-width: 768px) {
@@ -710,7 +747,7 @@ body {
 }
 @media (min-width: 1200px) {
   .view-search {
-    width: 445px;
+    width: 650px;
     height: 121px;
     margin-left: auto;
     margin-right: auto;
@@ -727,6 +764,12 @@ body {
   line-height: 26px;
   color: #000;
 }
+@media (min-width: 1200px) {
+  .view-search__title {
+    font-size: 30px;
+    line-height: 26px;
+  }
+}
 .view-search__discription {
   font-family: 'PT Sans';
   font-style: normal;
@@ -737,6 +780,18 @@ body {
   font-size: 21px;
   line-height: 26px;
   color: #333;
+}
+@media (min-width: 768px) {
+  .view-search__discription {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 1200px) {
+  .view-search__discription {
+    font-size: 21px;
+    line-height: 26px;
+  }
 }
 .form-header {
   margin: 36px 20px 53px;
@@ -779,13 +834,11 @@ body {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 26px;
   text-align: center;
   color: #000;
   text-transform: uppercase;
-  width: 280.08px;
-  height: 26px;
 }
 @media (min-width: 768px) {
   .form-header__title {
@@ -809,8 +862,7 @@ body {
   line-height: 21px;
   color: #333;
   text-align: center;
-  width: 280px;
-  height: 84px;
+  text-transform: uppercase;
 }
 @media (min-width: 768px) {
   .form-header__discription {
@@ -849,7 +901,7 @@ body {
 }
 .form-item__label {
   display: table;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   width: 37px;
   height: 21px;
@@ -935,6 +987,10 @@ body {
 }
 .social {
   display: flex;
+  gap: 6px;
+  padding: 0px;
+  margin: 0 auto;
+  justify-content: center;
   list-style: none;
 }
 @media (min-width: 768px) {
@@ -946,6 +1002,9 @@ body {
   width: 48px;
   height: 48px;
   background: #81B3D2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   .wrapper {

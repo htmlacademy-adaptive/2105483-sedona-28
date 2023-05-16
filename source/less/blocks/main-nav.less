@@ -1,4 +1,4 @@
-.main-nav__list{
+.main-nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -7,21 +7,31 @@
     display: flex;
     justify-content: space-between;
 
-
   }
-
 
   @media (min-width: @desktop-width){
       display: flex;
       justify-content: space-between;
 
-
   }
 }
 
-
 .main-nav__list a {
   color: #000;
+  height: 56px;
+  font-size: 17px;
+  line-height: 21px;
+
+  @media (min-width: @tablet-width) {
+    font-size: 17px;
+    line-height: 30px;
+
+  }
+
+  @media (min-width: @desktop-width){
+
+
+  }
 }
 
 .main-nav__toggle{
